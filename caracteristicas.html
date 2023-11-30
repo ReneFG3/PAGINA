@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Características - Mi Sitio Web</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container mt-5">
+        <section>
+            <h2>Características</h2>
+            <p>El Pug, por su naturaleza, es un perrito cariñoso y este comportamiento se acentúa cuando es criado junto
+                a niños. Su pequeño tamaño no impide que se defienda ante otros más grandes que él, por lo que se le
+                puede describir como valiente. Es muy enérgico cuando está en la etapa de cachorro, por lo que lo puede
+                pasear diariamente. Por otro lado, al entrar a la edad adulta tiende a volverse algo glotón y menos
+                activo. Por eso, hay que prestar más atención a su dieta. Las características del Pug lo hacen un
+                compañero perfecto para los que quieren su primera mascota. Este peludo de raza pequeña cuenta con un
+                espíritu amigable y no es para nada agresivo.</p>
+            <ul>
+                <li><strong>Ladrido:</strong> Si piensas que su ladrido será lindo, te equivocas. Tiene un ladrido grave
+                    a pesar de su tamaño.</li>
+                <li><strong>Sueño:</strong> Piensa muy bien si eres de sueño ligero, pues la mayoría ronca cuando están
+                    dormidos, e inclusive hacen ruidos despiertos.</li>
+                <li><strong>Pelaje:</strong> De ser una persona delicada con las mascotas. Su pelo es muy limpio y no
+                    desprende el típico mal olor de las mascotas.</li>
+            </ul>
+
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Ladrido
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            Si piensas que su ladrido será lindo, te equivocas. Tiene un ladrido grave a
+                            pesar de su tamaño.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                Sueño
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Piensa muy bien si eres de sueño ligero, pues la mayoría ronca cuando
+                            están dormidos, e inclusive hacen ruidos despiertos.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                Pelaje
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            De ser una persona delicada con las mascotas. Su pelo es muy limpio y no
+                            desprende el típico mal olor de las mascotas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
